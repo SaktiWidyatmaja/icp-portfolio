@@ -1,12 +1,12 @@
 {
   "canisters": {
-    "message_board": {
+    "portfolio": {
       "type": "custom",
       "main": "src/index.ts",
       "candid": "src/index.did",
-      "build": "npx azle message_board",
+      "build": "npx azle portfolio",
       "ts": "src/index.ts",
-      "wasm": ".azle/message_board/message_board.wasm",
+      "wasm": ".azle/portfolio/portfolio.wasm",
       "gzip": true
     }
   }
